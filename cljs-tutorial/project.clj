@@ -18,6 +18,8 @@
             [com.cemerick/austin "0.1.3"]]
   
   :hooks [leiningen.cljsbuild]
+
+  :jvm-opts ["-Xmx1g"]
   
   :cljsbuild
   {:builds {:cljs-tutorial
